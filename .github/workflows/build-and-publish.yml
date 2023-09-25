@@ -45,5 +45,5 @@ jobs:
           context: .
           push: true
           tags:
-            https://hub.docker.com/r/bygagabog/testing:1.0
+            ghcr.io/mkoehne/serverpod-vps-server:1.0
           labels: ${{ steps.meta.outputs.labels }}
