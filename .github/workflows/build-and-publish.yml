@@ -45,5 +45,5 @@ jobs:
           context: .
           push: true
           tags:
-            ghcr.io/mkoehne/serverpod-vps-server:1.0
+            bygagabog/testing:tagname:1.0
           labels: ${{ steps.meta.outputs.labels }}
